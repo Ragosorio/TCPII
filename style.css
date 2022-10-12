@@ -9,8 +9,10 @@ body {
 	font-family: 'Roboto', sans-serif;
 }
 
-@media screen {
-    
+@media (min-width: 800px) {
+    .link-insta__a{
+	padding: 30px 10px;
+	}
 }
 
 .contenedor{
