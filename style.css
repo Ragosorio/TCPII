@@ -9,12 +9,6 @@ body {
 	font-family: 'Roboto', sans-serif;
 }
 
-@media (min-width: 800px) {
-    .link-insta__a{
-	padding: 30px 10px;
-	}
-}
-
 .contenedor{
     position: relative;
     height: 90vh;
@@ -76,4 +70,10 @@ body {
 
 .parrafo:hover{
     opacity: 1;
+}
+
+@media (max-width: 800px) {
+    .link-insta__a{
+	padding: 20px 10px;
+	}
 }
